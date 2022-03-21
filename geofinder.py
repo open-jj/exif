@@ -7,13 +7,13 @@ import reverse_geocoder as rg
 import pycountry
 
 
-with open("./images/image2.jpg", "rb") as palm_1_file: ## put image directory here
-    palm_1_image = Image(palm_1_file)
+with open("./images/image2.jpg", "rb") as image_file: ## put image directory here
+    image = Image(image_file)
     
-with open("./images/image.jpg", "rb") as palm_2_file: ## put image directory here
-    palm_2_image = Image(palm_2_file)
+with open("./images/image.jpg", "rb") as image2_file: ## put image directory here
+    image2 = Image(image2_file)
     
-images = [palm_1_image, palm_2_image]
+images = [image, image2]
 
 for index, image in enumerate(images):
     if image.has_exif:
