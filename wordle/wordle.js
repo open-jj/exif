@@ -1,4 +1,4 @@
-const d = new Date("June 21, 2021");
+const d = new Date("June 21, 2021 11:59:00");
 const g = d.getTime();
 const f = Date.now();
 const h = f - g;
