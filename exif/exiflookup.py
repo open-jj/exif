@@ -1,4 +1,3 @@
-# MADE BY OSC
 # get exif data
 # !! if this doesn't work then they might of disabled location services for the camera app or other stuff !!
 
