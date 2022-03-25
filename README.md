@@ -6,4 +6,4 @@ Tools is a repository that has free tools that anyone can use for their tasks.
 
 ## WORDLE
 Put this into your searchbar for the wordle tool and remove the $:
-``$javascript:{const e=new Date("June 21, 2021");var t=e.getTime(),t=(Date.now()-t)/864e5,t=Math.round(t)+1;let o=new XMLHttpRequest;o.open("GET","https://raw.githubusercontent.com/vklyucheno/tools/main/wordle/words.txt",!1),o.send(null),n=o.responseText,m=n.split(/\n|\r/g),alert("Todays wordle is "+m[t]+".")}``
+``javascript:{const d=new Date("June 21, 2021 11:59:00"),g=d.getTime(),f=Date.now(),h=f-g,j=h/864e5,o=Math.round(j),k=o+1;let xmlHttpReq=new XMLHttpRequest;xmlHttpReq.open("GET","https://raw.githubusercontent.com/vklyucheno/tools/main/wordle/words.txt",!1),xmlHttpReq.send(null),n=xmlHttpReq.responseText,m=n.split(/\n|\r/g),alert("Today's wordle is "+m[k]+".");}``
