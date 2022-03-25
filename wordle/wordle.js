@@ -1,4 +1,4 @@
-javascript:(function(){
+javascript: (() =>{
     const d = new Date("June 21, 2021");
     const g = d.getTime();
     const f = Date.now();
@@ -13,4 +13,4 @@ javascript:(function(){
     n = xmlHttpReq.responseText;
     m = n.split(/\n|\r/g);
     alert("Today's wordle is " + m[k] + ".");
-})()
+})();
