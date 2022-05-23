@@ -2,7 +2,7 @@
 Python EXIF Viewer and Cleaner
 ## What is EXIF?
 Exchangeable image file format (officially Exif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras. The specification uses the following existing file formats with the addition of specific metadata tags: JPEG discrete cosine transform (DCT)[4] for compressed image files, TIFF Rev. 6.0 (RGB or YCbCr) for uncompressed image files, and RIFF WAV for audio files (Linear PCM or ITU-T G.711 μ-Law PCM for uncompressed audio data, and IMA-ADPCM for compressed audio data).[5] It is not used in JPEG 2000 or GIF.
-### Background
+## Background
 Exif is supported by almost all camera manufacturers.
 
 The metadata tags defined in the Exif standard cover a broad spectrum:
@@ -15,3 +15,6 @@ The metadata tags defined in the Exif standard cover a broad spectrum:
 - Descriptions
 - Copyright information.
 [Source: Wikipedia](https://en.wikipedia.org/wiki/Exif)
+
+## Credits
+- [open-jj](https://github.com/open-jj)
