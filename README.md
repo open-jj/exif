@@ -14,3 +14,4 @@ The metadata tags defined in the Exif standard cover a broad spectrum:
 - A thumbnail for previewing the picture on the camera's LCD screen, in file managers, or in photo manipulation software.
 - Descriptions
 - Copyright information.
+[Source: Wikipedia](https://en.wikipedia.org/wiki/Exif)
